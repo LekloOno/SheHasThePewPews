@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99248191f9991f40b17d5cc0837d521, type: 3}
+  m_Name: PS_Data
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  IsJumping: 0
+  IsSliding: 0
+  IsGrounded: 1
+  CanJump: 0
+  IsSlopeSliding: 0
+  IsNextToWall: 0
+  IsWallRiding: 0
+  WallRideCollisions: 0
+  WallFlat: {x: -0.49999237, y: 0, z: 0}
+  FlatVelocity: 0
+  Velocity: {x: 0, y: 0, z: 0}
+  FrictionBoost: 0
+  GroundHeight: 1
+  wishDir: {x: 0, y: 0, z: 0}
+  GroundNormal: {x: 0, y: 1, z: 2.2204462e-19}
+  GroundAngle: 0
+  cameraZrotation: 4e-45
+  Health: 0
+  Shield: 0
+  ChargeLockTracker: -0.009997899
