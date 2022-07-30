@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c935016fde3d5c419448902df893005, type: 3}
+  m_Name: DEFAULT
+  m_EditorClassIdentifier: 
+  SlideXForce: 5
+  AirForceMultiplier: 0.35
+  SlideDecayRecover: 3
+  SlideDecayMinRecover: 1
+  SlideDecayStrength: 0.8
+  DriftBuffer: 0.3
+  SlideMat: {fileID: 13400000, guid: 1fe22e6059b00074c9c34974755668bc, type: 2}
+  CrouchMat: {fileID: 13400000, guid: e713dfc9e1ad5e841bcc79025c9420df, type: 2}
+  DriftMat: {fileID: 13400000, guid: 42c571f40b884844590b9ee7464b41b4, type: 2}
